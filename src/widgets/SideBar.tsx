@@ -33,8 +33,8 @@ export const SideBar = () => {
     );
   }
   return (
-    <div className=" bg-white/10 backdrop-blur-lg p-4  w-full h-screen md:w-[45%] lg:w-[40%] shadow-lg md:rounded-xl absolute right-0">
-      <div className="flex items-center justify-center py-8">
+    <div className=" bg-white/10 backdrop-blur-lg p-4 w-full md:h-screen md:w-[45%] lg:w-[40%] shadow-lg md:rounded-xl absolute bottom-0 right-0">
+      <div className="flex items-center justify-center py-10">
         <form className="relative" onSubmit={handleSubmit}>
           <input
             type="text"

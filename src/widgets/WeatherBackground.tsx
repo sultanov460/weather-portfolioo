@@ -32,7 +32,7 @@ const WeatherBackground = ({ children }: Props) => {
 
   return (
     <div
-      className={`${bgClass} transition duration-300`}
+      className={`${bgClass} h-screen bg-center bg-cover transition duration-300`}
     >
       {children}
     </div>
