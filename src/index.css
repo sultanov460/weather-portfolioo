@@ -10,24 +10,39 @@ body {
 .bg-thunderstorm {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/thunderstorm-bg.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-clear {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/clear-bg.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-clouds {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/clouds-bg.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-rain {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/rainy-bg.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-default {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/Default.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
 }
